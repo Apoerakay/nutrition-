@@ -4,10 +4,21 @@ function Navbar() {
   return (
     <>
       <ul>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
-        <li>Home</li>
+       <li>
+        <a href="#">Home</a>
+        </li>
+
+        <li>
+        <a href="#">About us</a>
+        </li>
+
+        <li>
+        <a href="#">Services</a>
+        </li>
+
+        <li>
+        <a href="#">Blog</a>
+        </li>
       </ul>
     </>
   );
