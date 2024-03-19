@@ -3,6 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <>
+      <div className="justify-start">
       <ul>
        <li>
         <a href="#">Home</a>
@@ -20,6 +21,7 @@ function Navbar() {
         <a href="#">Blog</a>
         </li>
       </ul>
+      </div>
     </>
   );
 }
