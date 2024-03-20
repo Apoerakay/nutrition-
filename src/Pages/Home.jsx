@@ -5,12 +5,28 @@ import Navbar from "../Components/Navbar"
 export default function Home() {
     return (
         <>
-            <div className="bg-[url('https://media.istockphoto.com/id/1478737872/photo/apple-safety-nutritionist.jpg?s=1024x1024&w=is&k=20&c=4wHHsi0JcW8y0fqp2Zx-UdKm7VVGaZd45lHMK5Q2SnA=.jpg') h-lvh]">
 
-                <Navbar />
-                <div className="flex justify-center items-center h-screen">
-                    <button type="button" class="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800 ">Dark</button>
+<Navbar />
+            <div class="bg-slate-50 bg-center bg-cover h-lvh text-center text-white">
+
+                <div>
+                    <div>
+                        
+                    </div>
                 </div>
+
+                <div class="flex pt-52 flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+            <a href="#" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
+                Get started
+                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </a>
+            <a href="#" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+                Learn more
+            </a>  
+        </div>
+
             </div>
             
 
